@@ -15,7 +15,7 @@ export default function ServicesHubPage() {
       <p className="text-[var(--muted)] mt-2 max-w-prose">ISV provides end-to-end measurement, analysis, modeling and remedial design services across infrastructure, construction and automotive sectors.</p>
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
         {servicesHub.map((i) => (
-          <Link key={i.title} href={i.href} className="card p-6 hover:shadow-lg hover:shadow-black/20 transition">
+          <Link key={i.title} href={i.href} className="card p-6 hover:shadow-lg hover:shadow-gray-300 transition">
             <div className="text-[var(--gold)] font-semibold">{i.title}</div>
             <div className="text-sm text-[var(--muted)] mt-2">{i.desc}</div>
             <div className="mt-4 text-sm text-[var(--muted)]">Learn more →</div>

@@ -16,7 +16,7 @@ export default function Home() {
             </div>
           </div>
           <div className="card p-6">
-            <div className="aspect-video w-full rounded-md bg-[linear-gradient(135deg,_#1a1a1d_0%,_#0e0e10_100%)] border border-[var(--border)] flex items-center justify-center text-[var(--muted)]">
+            <div className="aspect-video w-full rounded-md bg-[linear-gradient(135deg,_#eef4ff_0%,_#e0ecff_100%)] border border-[var(--border)] flex items-center justify-center text-[var(--muted)]">
               Hero Image / Video Placeholder
             </div>
             <p className="text-xs text-[var(--muted)] mt-3">Use high-quality site photos (e.g., rail noise monitoring, barriers).</p>
@@ -30,7 +30,7 @@ export default function Home() {
         <p className="text-[var(--muted)] mt-2">Clear, outcome-led solutions for decision-makers.</p>
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mt-8">
           {servicesOverview.map((s) => (
-            <Link key={s.title} href={s.href} className="card p-6 hover:shadow-lg hover:shadow-black/20 transition">
+            <Link key={s.title} href={s.href} className="card p-6 hover:shadow-lg hover:shadow-gray-300 transition">
               <div className="text-[var(--gold)] font-semibold">Service</div>
               <div className="mt-1 text-lg font-medium">{s.title}</div>
               <div className="mt-4 text-sm text-[var(--muted)]">Learn more →</div>
@@ -50,7 +50,7 @@ export default function Home() {
             </div>
             <div className="grid grid-cols-2 gap-4 text-center">
               {trust.bullets.map((b) => (
-                <div key={b.label} className="p-4 rounded-lg bg-black/30 border border-[var(--border)]"><div className="text-3xl font-bold">{b.value}</div><div className="text-xs text-[var(--muted)] mt-1">{b.label}</div></div>
+                <div key={b.label} className="p-4 rounded-lg bg-[#f2f7ff] border border-[var(--border)]"><div className="text-3xl font-bold">{b.value}</div><div className="text-xs text-[var(--muted)] mt-1">{b.label}</div></div>
               ))}
             </div>
           </div>

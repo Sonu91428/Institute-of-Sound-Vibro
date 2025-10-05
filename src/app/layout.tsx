@@ -32,7 +32,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen flex flex-col`}>
-        <header className="border-b border-[var(--border)] sticky top-0 z-50 backdrop-blur bg-[color:rgb(11_11_12_/_.7)]">
+        <header className="border-b border-[var(--border)] sticky top-0 z-50 backdrop-blur bg-[color:rgb(234_242_255_/_0.7)]">
           <div className="max-w-6xl mx-auto container-padded h-16 flex items-center justify-between">
             <Link href="/" className="flex items-center gap-3">
               <div className="w-9 h-9 rounded-full bg-[var(--gold)] flex items-center justify-center text-black font-extrabold">{brand.nameShort}</div>
